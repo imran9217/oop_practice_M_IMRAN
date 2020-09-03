@@ -29,3 +29,30 @@ for number in range(minimum, maximum+1):
     if (number % 2 == 1):
         print("ODD NUMBER")
         print (number)
+        
+        
+        
+        
+        ################################################################
+Minimum = int(input(" Please Enter the Minimum Value : "))
+Maximum = int(input(" Please Enter the Maximum Value : "))
+number = 1
+Minimum = number
+
+while number <= Maximum:
+    if (number % 2 != 0):
+        print(number)
+    number = number + 1
+
+
+################################################################
+Minimum = int(input(" Please Enter the Minimum Value : "))
+Maximum = int(input(" Please Enter the Maximum Value : "))
+number = 1
+Minimum = number
+
+while number <= Maximum:
+    if (number % 2 == 0):
+        print(number)
+    number = number + 1
+
