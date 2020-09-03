@@ -4,7 +4,7 @@
 #imranliaqat
 #baim-s20-003
 
-num: int = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 if (num % 2) == 0:
     print(num, " is Even")
 
