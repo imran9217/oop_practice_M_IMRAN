@@ -10,3 +10,22 @@ if (num % 2) == 0:
 
 else:
      print(num, " is Odd")
+        
+#######################################################################################################
+for loop even odd
+
+
+
+
+minimum = int(input("PLEASE ENTER THE minimum VALUE :="))
+maximum = int(input("PLEASE ENTER THE maximum VALUE :="))
+
+for number in range(minimum, maximum+1):
+    if(number % 2==0):
+        print("EVEN NUMBER")
+        print (number )
+print("#########################################")
+for number in range(minimum, maximum+1):
+    if (number % 2 == 1):
+        print("ODD NUMBER")
+        print (number)
