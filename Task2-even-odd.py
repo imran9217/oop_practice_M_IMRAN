@@ -6,7 +6,7 @@
 
 num: int = int(input("Enter a number: "))
 if (num % 2) == 0:
-    print( " is Even")
+    print(num, " is Even")
 
 else:
-     print( " is Odd")
+     print(num, " is Odd")
