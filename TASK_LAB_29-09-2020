@@ -3,7 +3,7 @@ class parent:
     mother_name = ""
     father_motorcycle =""  #Create variable fatherName and motherName in parent class and a function father
 
-    def introduction(self):
+    def motorcycle(self):
         print("THIS IS FATHER  MOTORCYCLE " + str(self.father_motorcycle))
 
     # motorcycle in parent class which prints that this is father's motorcycle.
@@ -14,11 +14,11 @@ class child(parent):
 imran = child()
 imran.child_age = 19
 imran.child_name = "IMRAN"
-imran.introduction()
+imran.motorcycle()
 
 
 
 father = parent()
 father.name = "Liaqat ali"
 father.father_motorcycle ="Honda CD 70 "
-#father.introduction()
+father.mother_name = "mama"
