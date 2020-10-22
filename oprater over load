@@ -1,0 +1,20 @@
+class vahicle():
+    number_of_wheel=0
+    number_of_lights=0
+    def introduce_vahicles(self,other):
+        print("i am a simple vahicle with "+ self.number_of_wheel +"  wheel\n")
+        print("I have "+ self.number_of_lights+" lights")
+    def __add__(self, other):
+        temp1 = self.number_of_lights + other.number_of_lights
+        temp2 = self.number_of_wheel + other.number_of_wheel
+        return [temp1,temp2]
+trali=vahicle()
+tractor=vahicle()
+tractor.number_of_wheel=4
+tractor.number_of_lights=4
+trali.number_of_lights=2
+trali.number_of_wheel=2
+
+tractortrali = tractor+trali
+print(tractortrali)
+
