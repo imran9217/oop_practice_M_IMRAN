@@ -1,0 +1,109 @@
+
+from tkinter import *
+root = Tk()
+root.state("zoomed")
+def GUI_CREATER():
+####################################################################3
+    frame_1 = Frame(root, bg='BLACK', height=550)
+    frame_1.pack(side=TOP, expand=0, fill=BOTH)
+
+
+####################################################################3
+
+    frame_div_1 = Frame(frame_1, bg='BLACK', height=50)
+    frame_div_1.pack(fill=BOTH, expand=1, side=LEFT)
+
+    lbl_1 = Label(frame_div_1, text="Lable 1", width=20)
+
+    lbl_1.pack(side=RIGHT)
+
+
+    btn_1_1 = Button(frame_div_1, text="buttuon-3")
+    btn_1_1.pack(side=RIGHT)
+    lbl_1_1 = Label(frame_div_1, text="Lable 3", width=20)
+    lbl_1_1.pack(side=LEFT)
+
+
+
+
+    btn_1= Button( frame_div_1, text="buttuon-1")
+    btn_1.pack(side=LEFT)
+
+
+####################################################################3
+    frame_div_2 = Frame(frame_1, bg='white', height=50)
+    frame_div_2.pack(fill=BOTH, expand=1, padx=20, side=LEFT)
+
+    lbl_2 = Label(frame_div_2, text="Lable 2" ,width=20)
+    lbl_2.pack(side=RIGHT)
+
+
+
+
+
+    btn_2 = Button(frame_div_2, text="button-2")
+    btn_2.pack(side=RIGHT)
+
+
+    lbl_2_2 = Label(frame_div_2, text="Lable 3", width=20)
+    lbl_2_2.pack(side=LEFT)
+    btn_2_2 = Button(frame_div_2, text="Button-3")
+    btn_2_2.pack(side=LEFT)
+#######################################################################3
+
+    frame_2 = Frame(root, bg='red', width=70)
+
+    frame_2.pack(side=LEFT, fill=BOTH)
+
+    lbl_left=Label(frame_2,text="LABLE",width=20)
+    lbl_left.pack(expand=1)
+    btn_left=Button(frame_2,text="button")
+    btn_left.pack(expand=1)
+
+
+    frame_3 = Frame(root, bg='GREEN', height=70)
+
+
+    frame_3.pack(side=BOTTOM, fill=X)
+
+
+
+    frame_3_1 =Frame(frame_3,bg='RED' ,height=70 ,width=600)
+    frame_3_1.pack(side=LEFT)
+    lbl_bottom_1=Label(frame_3_1,text="LABLE",width=20)
+    lbl_bottom_1.pack()
+    btn_bottom_1=Button(frame_3_1,text="BUTTON",width=20)
+    btn_bottom_1.pack()
+    frame_3_2 =Frame(frame_3,bg='GREEN',height=70,width=600)
+    frame_3_2.pack(side=RIGHT)
+
+
+    lbl_bottom_2 = Label(frame_3_2, text="LABLE", width=20)
+    lbl_bottom_2.pack(side=LEFT)
+    btn_bottom_2 = Button(frame_3_2, text="BUTTON", width=20)
+    btn_bottom_2.pack(side=RIGHT)
+
+
+    frame_4 = Frame(root, bg='BLUE', width=70)
+
+    frame_4.pack(side=RIGHT, fill=BOTH)
+    lbl_right=Label(frame_4,text="lable",width=20)
+    lbl_right.pack(expand=1)
+###########################################################################################
+
+    frame_5=Frame(root,bg='yellow')
+    frame_5.pack(expand=1 ,fill=BOTH)
+    btn_main = Button(frame_5, text="BB            mango", width=880 , height=1)
+    btn_main.pack(side=RIGHT)
+##############################################################################################
+    root.mainloop()
+
+
+
+
+
+while True:
+    c1 = GUI_CREATER()
+
+
+
